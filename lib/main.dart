@@ -125,7 +125,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       const SizedBox(width: 16),
 
                       // User Information
-                      Expanded(
+                      Container(
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
